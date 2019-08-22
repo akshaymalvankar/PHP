@@ -1,0 +1,51 @@
+[
+    {
+        "error": 404,
+        "description": "file not found on server",
+        "file": "index.php",
+        "line": "callLoginApi()",
+        "date": "22-08-2019 03:13:26 pm"
+    },
+    {
+        "error": 404,
+        "description": "something went wrong",
+        "file": "index.php",
+        "function": "callLoginApi()",
+        "date": "22-08-2019 03:27:31 pm"
+    },
+    {
+        "level": "Notice",
+        "code": 0,
+        "error": "Notice",
+        "description": "Trying to get property 'message' of non-object",
+        "file": "C:\\Akshay\\htdocs\\jwt_api\\index.php",
+        "line": 32,
+        "date": "22-08-2019 06:57:31 pm",
+        "message": "Notice (0): Trying to get property 'message' of non-object in [C:\\Akshay\\htdocs\\jwt_api\\index.php, line 32]",
+        "customMessage": "",
+        "customData": [],
+        "context": {
+            "HTTP_HOST": "localhost",
+            "HTTP_CONNECTION": "keep-alive",
+            "HTTP_USER_AGENT": "Mozilla\/5.0 (Windows NT 6.1) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/76.0.3809.100 Safari\/537.36",
+            "REMOTE_ADDR": "::1",
+            "REMOTE_PORT": "50070",
+            "REQUEST_SCHEME": "http",
+            "REQUEST_METHOD": "POST",
+            "REQUEST_URI": "\/jwt_api\/index.php",
+            "QUERY_STRING": "",
+            "PHP_SELF": "\/jwt_api\/index.php",
+            "REQUEST_TIME_FLOAT": 1566480451.373,
+            "REQUEST_TIME": 1566480451,
+            "GET": [],
+            "POST": {
+                "btnsubmit": "Submit"
+            },
+            "POST_BODY": "btnsubmit=Submit",
+            "FILES": [],
+            "COOKIE": {
+                "Access": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJsb2NhbGhvc3QiLCJhdWQiOiJUSEVfQVVESUVOQ0UiLCJpYXQiOjE1NjY0MDY1ODIsIm5iZiI6MTU2NjQwNjU5MiwiZXhwIjoxNTY2NDA2NjQyLCJkYXRhIjp7ImlkIjoxLCJmaXJzdG5hbWUiOiJBa3NoYXkiLCJsYXN0bmFtZSI6Ik1hbHZhbmthciIsImVtYWlsIjoibWFsdmFua2FyQGdtYWlsLmNvbSJ9fQ.kLzm1_Zmy9k1vWKRejSDUdY7cnhx0GaQwx_nhPss68U"
+            }
+        }
+    }
+]
